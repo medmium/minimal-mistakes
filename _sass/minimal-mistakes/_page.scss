@@ -33,6 +33,17 @@ body {
   flex: 1 0 auto;
 }
 
+.masthead {
+  background-color: $title-bar-backgroud-color;
+  .masthead__inner-wrap{
+    background-color: $title-bar-backgroud-color;
+  }
+  #site-nav{
+    background-color: $title-bar-backgroud-color;
+  }
+}
+
+
 .page {
   @include breakpoint($large) {
     float: inline-end;
